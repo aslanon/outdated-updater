@@ -1,3 +1,5 @@
+[![issues](https://badgen.net/github/issues/aslanon/outdated-updater)](https://badge.fury.io/js/vue-confirm-dialog) [![npm](https://img.shields.io/npm/dm/outdated-updater)](https://www.npmjs.com/package/outdated-updater) ![npm version](https://badge.fury.io/js/outdated-updater.svg)
+
 ## 📦 outdated-updater
 
 Easily upgrade your npm components in your applications.
@@ -96,4 +98,4 @@ found 21 high severity vulnerabilities
 
 Check your app components.
 
-![](/home/onur/outdated-updater/image/command.jpeg)
+![](https://github.com/aslanon/outdated-updater/blob/master/image/command.jpeg?raw=true)
