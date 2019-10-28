@@ -1,0 +1,23 @@
+{
+  "name": "outdated-updater",
+  "author": "Onur Aslan <aslanon.tr@gmail.com>",
+  "license": "MIT",
+  "version": "1.0.7",
+  "description": "update to your npm packages",
+  "main": ".lib/cli.js",
+  "bin": {
+    "outdated-updater": "./bin/outdated-updater.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "commander": "^1.0.0",
+    "fs": "0.0.1-security",
+    "npm": "^6.10.0"
+  }
+}
