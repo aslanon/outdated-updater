@@ -1,2 +1,3 @@
 Package    Current  Wanted  Latest  Location
-commander    3.0.2   1.3.2   3.0.2  outdated-updater
+commander    1.3.2   1.3.2   3.0.2  outdated-updater
+npm         6.12.0  6.12.1  6.12.1  outdated-updater
