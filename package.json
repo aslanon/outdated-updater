@@ -1,15 +1,13 @@
 {
   "name": "outdated-updater",
-  "author": "Onur Aslan <aslanon.tr@gmail.com>",
-  "license": "MIT",
-  "version": "1.5.1",
-  "description": "update to your npm packages",
-  "main": ".lib/cli.js",
+  "version": "1.5.2",
+  "description": "Upgrades your package.json dependencies to the latest versions.",
+  "main": "./lib/cli.js",
+  "directories": {
+    "lib": "lib"
+  },
   "bin": {
     "outdated-updater": "./bin/outdated-updater.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "bin",
@@ -20,7 +18,29 @@
     "commander": "^3.0.2",
     "fs": "0.0.1-security",
     "log-update": "^3.3.0",
-    "npm": "^6.12.1",
-    "prompt-list": "^3.2.0"
-  }
+    "prompt-checkbox": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslanon/outdated-updater.git"
+  },
+  "keywords": [
+    "npm",
+    "npm-packages-updater",
+    "package-updater",
+    "npm-outdated",
+    "outdated",
+    "upgrade",
+    "update"
+  ],
+  "author": "Onur Aslan <aslanon.tr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aslanon/outdated-updater/issues"
+  },
+  "homepage": "https://github.com/aslanon/outdated-updater#readme"
 }
