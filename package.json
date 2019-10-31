@@ -2,7 +2,7 @@
   "name": "outdated-updater",
   "author": "Onur Aslan <aslanon.tr@gmail.com>",
   "license": "MIT",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "update to your npm packages",
   "main": ".lib/cli.js",
   "bin": {
